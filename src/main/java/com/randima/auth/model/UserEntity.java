@@ -9,7 +9,6 @@ import javax.persistence.Id;
 @Data
 @Entity
 public class UserEntity {
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
